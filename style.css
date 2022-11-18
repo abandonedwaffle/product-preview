@@ -53,7 +53,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     letter-spacing: 3px;
-    color: hsl(212, 21%, 14%);
+    color: hsl(228, 12%, 48%);
 }
 h1 {
     font-family: 'Fraunces', serif;
@@ -89,12 +89,12 @@ h1 {
 }
 .price-two  {
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     color: hsl(228, 12%, 48%);
 }
 button {
     background-color: hsl(158, 36%, 37%);
-    height: 45px;
+    height: 43px;
     border: none;
     border-radius: 10px;
     margin-top: 20px;
@@ -140,8 +140,12 @@ a {
         padding: 10px 20px;
     }
     button {
-
+        height: 50px;
         margin-bottom: 20px;
+    }
+    .para-1 {
+        line-height: 25px;
+        padding-right: 20px;
     }
     
 }
