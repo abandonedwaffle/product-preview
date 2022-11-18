@@ -5,12 +5,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&display=swap');
 /* font-family: 'Fraunces', serif; */
 
-* {
+*{
     margin: 0;
     padding: 0;
 }
 
-body {
+body{
     display:flex; 
     flex-direction:column; 
     justify-content:center;
@@ -23,30 +23,26 @@ body {
 
 /* flex container css */
 
-.flex-container {
+.flex-container{
     display: flex;
     width: 600px;
     border-radius: 10px;
     background-color: white;
-
-
 }
 /* flex item css */
-.img-div img {
+.img-div img{
     max-width: 300px;
     max-height: 430px;
     border-radius: 10px 0px 0px 10px;
     display: flex;
     content: url(./images/image-product-desktop.jpg);
 }
-.text-container {
+.text-container{
     display: flex;
     flex-direction: column;  
     padding: 10px 40px 0px 40px; 
-    
 }
-
-.sub-text-1 {
+.sub-text-1{
     margin-top: 20px;
     font-weight: 400;
     margin-bottom: 20px;
@@ -55,7 +51,7 @@ body {
     letter-spacing: 3px;
     color: hsl(228, 12%, 48%);
 }
-h1 {
+h1{
     font-family: 'Fraunces', serif;
     font-weight: 700;
     margin-bottom: 20px;
@@ -63,36 +59,32 @@ h1 {
     padding-right: 35px;
     line-height: 33px;
 }
-.para-1 {
-    /* margin-bottom: 20px; */
+.para-1{
     font-size: 14px;
     font-family:'Montserrat', sans-serif;
     line-height: 20px;
     color: hsl(228, 12%, 48%);
     font-weight: 500;
 }
-
-.product-prices {
+.product-prices{
     display: flex;
     justify-content: flex-start;
     gap: 20px;
     align-items: center;
     margin-top: 20px;
-    
 }
-.price-one {
+.current-price{
     font-family: 'Fraunces', serif; 
     font-size: 30px;
     color: hsl(158, 36%, 37%);
     font-weight: 700;
-    
 }
-.price-two  {
+.discount-price{
     font-family: 'Montserrat', sans-serif;
     font-size: 13px;
     color: hsl(228, 12%, 48%);
 }
-button {
+button{
     background-color: hsl(158, 36%, 37%);
     height: 43px;
     border: none;
@@ -106,46 +98,43 @@ button {
     gap: 10px;
     font-weight: 700;
 }
-button:hover {
+button:hover{
     cursor: grab;
     background-color: hsl(156, 42%, 18%);
 }
-a {
-
+a{
     text-decoration: none;
     color: inherit;
-    
 }
+/* Media Queries */
+@media only screen and (max-width: 700px){
 
-@media only screen and (max-width: 700px) {
-    body {
-        overflow-y: hidden;
-        overflow-x: hidden;
-    }
-    .flex-container {
-        display: flex;
-        width: 350px;
-        flex-direction: column;
-        border-radius: 10px;
-        background-color: white;
-    
-    
-    } 
-    .img-div img {
-        content: url(./images/image-product-mobile.jpg);
-        border-radius: 10px 10px 0px 0px;
-        max-width: 100%;
-    }
-    .text-container {
-        padding: 10px 20px;
-    }
-    button {
-        height: 50px;
-        margin-bottom: 20px;
-    }
-    .para-1 {
-        line-height: 25px;
-        padding-right: 20px;
-    }
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.flex-container{
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: white;
+} 
+.img-div img{
+    content: url(./images/image-product-mobile.jpg);
+    border-radius: 10px 10px 0px 0px;
+    max-width: 100%;
+}
+.text-container{
+    padding: 10px 20px;
+}
+button{
+    height: 50px;
+    margin-bottom: 20px;
+}
+.para-1{
+    line-height: 25px;
+    padding-right: 20px;
+}
     
 }
