@@ -46,7 +46,7 @@ body{
     font-weight: 400;
     margin-bottom: 20px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
+    font-size: 0.75rem;
     letter-spacing: 3px;
     color: hsl(228, 12%, 48%);
 }
@@ -59,7 +59,7 @@ h1{
     line-height: 33px;
 }
 .para-1{
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family:'Montserrat', sans-serif;
     line-height: 20px;
     color: hsl(228, 12%, 48%);
@@ -74,13 +74,13 @@ h1{
 }
 .current-price{
     font-family: 'Fraunces', serif; 
-    font-size: 30px;
+    font-size: 1.875rem;
     color: hsl(158, 36%, 37%);
     font-weight: 700;
 }
 .discount-price{
     font-family: 'Montserrat', sans-serif;
-    font-size: 13px;
+    font-size: 0.8125rem;
     color: hsl(228, 12%, 48%);
 }
 button{
