@@ -17,6 +17,8 @@ body {
     min-height:100vh;
     align-items: center;
     background-color: hsl(30, 38%, 92%);
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 /* flex container css */
@@ -35,18 +37,19 @@ body {
     max-height: 430px;
     border-radius: 10px 0px 0px 10px;
     display: flex;
+    content: url(./images/image-product-desktop.jpg);
 }
 .text-container {
     display: flex;
     flex-direction: column;  
-    padding: 10px 30px 0px 30px; 
+    padding: 10px 40px 0px 40px; 
     
 }
 
 .sub-text-1 {
     margin-top: 20px;
-    font-weight: 700;
-    margin-bottom: 10px;
+    font-weight: 400;
+    margin-bottom: 20px;
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     letter-spacing: 3px;
@@ -61,7 +64,7 @@ h1 {
     line-height: 33px;
 }
 .para-1 {
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     font-size: 14px;
     font-family:'Montserrat', sans-serif;
     line-height: 20px;
@@ -79,10 +82,10 @@ h1 {
 }
 .price-one {
     font-family: 'Fraunces', serif; 
-    font-size: 35px;
+    font-size: 30px;
     color: hsl(158, 36%, 37%);
     font-weight: 700;
-    /* letter-spacing: 2.8px; */
+    
 }
 .price-two  {
     font-family: 'Montserrat', sans-serif;
@@ -103,4 +106,42 @@ button {
     gap: 10px;
     font-weight: 700;
 }
+button:hover {
+    cursor: grab;
+    background-color: hsl(156, 42%, 18%);
+}
+a {
 
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+@media only screen and (max-width: 650px) {
+    body {
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    .flex-container {
+        display: flex;
+        width: 350px;
+        flex-direction: column;
+        border-radius: 10px;
+        background-color: white;
+    
+    
+    } 
+    .img-div img {
+        content: url(./images/image-product-mobile.jpg);
+        border-radius: 10px 10px 0px 0px;
+        max-width: 100%;
+    }
+    .text-container {
+        padding: 10px 20px;
+    }
+    button {
+
+        margin-bottom: 20px;
+    }
+    
+}
