@@ -103,6 +103,10 @@ button:hover{
     background-color: hsl(156, 42%, 18%);
 }
 
+footer {
+    font-size: 50px;
+}
+
 /* Media Queries */
 @media only screen and (max-width: 700px){
 
