@@ -63,13 +63,15 @@ h1{
     line-height: 20px;
     color: hsl(228, 12%, 48%);
     font-weight: 500;
+    margin-top: 8px;
 }
 .product-prices{
     display: flex;
     justify-content: flex-start;
     gap: 20px;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .current-price{
     font-family: 'Fraunces', serif; 
@@ -88,7 +90,7 @@ button{
     height: 43px;
     border: none;
     border-radius: 10px;
-    margin-top: 20px;
+    /* margin-top: px; */
     font-family: 'Montserrat', sans-serif;
     color: white;
     display: flex;
